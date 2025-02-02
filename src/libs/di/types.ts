@@ -6,6 +6,7 @@ const DI_SYMBOLS = {
   ITodoRepository: Symbol.for('TodoRepository'),
 
   // Services
+  ITodoService: Symbol.for('TodoService'),
 }
 
 export default DI_SYMBOLS
