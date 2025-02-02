@@ -1,12 +1,12 @@
 const DI_SYMBOLS = {
   // Gateways
-  ISupabaseGateway: Symbol.for('SupabaseGateway'),
+  ISupabaseGateway: Symbol.for('ISupabaseGateway'),
 
   // Repositories
-  ITodoRepository: Symbol.for('TodoRepository'),
+  ITodoRepository: Symbol.for('ITodoRepository'),
 
   // Services
-  ITodoService: Symbol.for('TodoService'),
+  ITodoService: Symbol.for('ITodoService'),
 }
 
 export default DI_SYMBOLS
