@@ -11,10 +11,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "inversify": "^6.2.1",
     "next": "15.1.6",
     "prettier": "^3.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
